@@ -1,0 +1,108 @@
+
+        .logo span {
+            color:#f04e23;
+            background-color: #f04e23;
+            margin-left: 5px;
+            width: 15px; /* Adjust size */
+            height: 15px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+        }
+
+        .btn-contact {
+            background-color: #f04e23;
+            color: white;
+            text-decoration: solid;
+            padding: 8px 16px;
+        }
+
+        .btn-contact:hover {
+            opacity: 0.9;
+        }
+
+        .btn-journal {
+            background-color: black;
+            color: white;
+            margin: 20PX;
+            padding: 20PX;
+        }
+
+        .btn-journal:hover {
+            opacity: 0.8;
+            color: rgb(0, 0, 0);
+            background-color: #f04e23;
+            margin: 20PX;
+            padding: 20PX;
+        }
+
+        .profile-content h1 span {
+            color: #f04e23;
+        }
+
+        .profile img {
+            border-radius: 10px;
+        }
+
+        .custom-hover:hover {
+            background-color: #f04e23 !important;
+            border-color: #f04e23 !important;
+        }
+
+        .h2 {
+            color: #f04e23;
+            font-weight: bold;
+            font-size: 2.5rem;
+        }
+
+        .custom-nav-link {
+            font-size: 0.9rem; /* Reduce the text size */
+            text-decoration: none;
+            color: #333; /* Dark grey color */
+            padding: 0.5rem 1rem; /* Add some padding */
+            transition: color 0.3s ease; /* Smooth color transition */
+        }
+
+        .custom-nav-link:hover {
+            color: #f04e23 !important; /* Change color to orange on hover */
+        }
+        .sentance {
+            font-size: 1.2rem;
+            font-weight: 450;
+            line-height: 1.5;
+            justify-content: flex-end;
+            letter-spacing: 0.5px;
+        }
+
+        /* Watermark Styling */
+        .watermark-container {
+            position: fixed;
+            top: 50%;
+            bottom: 50px;
+            right: 0;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; /* Space between "W" and "AWARDS" */
+            align-items: center;
+            background-color: black; /* Black background */
+            padding: 20px 10px; /* Padding for rectangular shape */
+            height: 200px; /* Set the height to make it rectangular */
+            width: 60px;
+            z-index: 1000;
+            color: white; /* White text */
+        }
+
+        .watermark-container .letter-w {
+            font-size:20px;
+            font-weight: bold;
+        }
+
+        .watermark-container .awards {
+            font-size: 17px;
+            padding: 20px;
+            font-weight: bold;
+            transform: rotate(-90deg); /* Rotate AWARDS by 90 degrees */
+            white-space: nowrap;
+        }
